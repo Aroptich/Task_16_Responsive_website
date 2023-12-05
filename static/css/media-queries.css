@@ -7,6 +7,19 @@
     .offer-wrap {
         padding: 0;
     }
+
+    .footer_up {
+        flex-direction: column;
+        gap: 48px;
+    }
+
+    .review_wrapper {
+         flex-direction: column;
+
+    }
+
+
+
 }
 
 /*Settings mobile */
@@ -21,10 +34,12 @@
         display: none;
     }
 
-    .nav-buy    {
-        width: 32px;
-        height: 23px;
-        background: url("../images/logo/Burger.svg") 50%/cover no-repeat;
+    .user_link {
+        display: none;
+    }
+
+    .buscket_link {
+        display: none;
     }
 
     .products-wrap {
@@ -41,7 +56,7 @@
 
     #offer {
         grid-template-columns: repeat(1, 1fr);
-}
+    }
 
 
     .offer-wrap:nth-child(4) {
@@ -51,3 +66,26 @@
     .title-products {
         margin: 65px 0 6px 0;
     }
+
+    .box {
+        width: 95%;
+    }
+
+    .footer_up {
+        flex-direction: column;
+        gap: 48px;
+        padding: 3.5% 0 8% 0;
+    }
+
+    .review_wrapper {
+         flex-direction: column;
+
+    }
+    .footer_bot {
+        flex-direction: column-reverse;
+    }
+    .social_icons {
+        padding: 40px 0;
+    }
+
+}

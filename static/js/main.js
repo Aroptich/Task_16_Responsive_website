@@ -1,12 +1,10 @@
-document.addEventListener("DOMContentLoaded", function (){
-    document.getElementById("burger").addEventListener("click", function(){
-        document.querySelector("sub_menu").toggleClass('sub_menu_active')
-    })
-})
+let hamb = document.querySelector(".btn_burger");
+let subMenu = document.querySelector(".sub_menu");
 
-//('.btn_burger').on('click', function(e) {
-//    e.preventDefault;
-//    (this).toggleClass('btn_burger_active');
-//    ('sub_menu').toggleClass('sub_menu_active');
-//
-//});
+hamb.addEventListener("click", menu);
+
+function menu() {
+    hamb.classList.toggle("active");
+    subMenu.classList.toggle("active");
+}
+
