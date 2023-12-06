@@ -407,6 +407,7 @@ border: 1px solid #FF6A6A;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 .box {
